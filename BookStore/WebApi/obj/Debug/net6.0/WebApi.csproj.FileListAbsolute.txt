@@ -25,3 +25,13 @@ C:\Users\Kenan\Desktop\pratik .net\BookStore\WebApi\obj\Debug\net6.0\WebApi.dll
 C:\Users\Kenan\Desktop\pratik .net\BookStore\WebApi\obj\Debug\net6.0\ref\WebApi.dll
 C:\Users\Kenan\Desktop\pratik .net\BookStore\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\Users\Kenan\Desktop\pratik .net\BookStore\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\WebApi.AssemblyInfo.cs
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\WebApi.dll
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\ref\WebApi.dll
+C:\Users\Kenan\Desktop\pratik .net\.Net-Practises\BookStore\Webapi\obj\Debug\net6.0\WebApi.pdb

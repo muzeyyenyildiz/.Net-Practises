@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kenan\\Desktop\\pratik .net\\BookStore\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kenan\\Desktop\\pratik .net\\BookStore\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kenan\\Desktop\\pratik .net\\BookStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Kenan\\Desktop\\pratik .net\\BookStore\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Kenan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenan\\Desktop\\pratik .net\\BookStore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
