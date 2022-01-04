@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\WebApi.csproj": {}
+    "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\WebApi.csproj": {
+    "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Kenan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\Webapi\\obj\\",
+        "outputPath": "C:\\Users\\Kenan\\Desktop\\pratik .net\\.Net-Practises\\BookStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
