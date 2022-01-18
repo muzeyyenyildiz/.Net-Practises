@@ -1,3 +1,4 @@
+using AutoMapper;
 using WebApi.Common;
 using WebApi.DBOperations;
 
@@ -7,9 +8,13 @@ namespace WebApi.BookOperations.CreateBook
     {
         public CreateBookModel Model { get; set; }
         private readonly BookStoreDbContext _dbContext;
-        public CreateBookCommand(BookStoreDbContext dbContext)
+        private readonly IMapper _mapper;
+        private IMapper mapper;
+
+        public CreateBookCommand(BookStoreDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
+            _mapper = mapper;
         }
 
         public void Handle()
@@ -22,13 +27,7 @@ namespace WebApi.BookOperations.CreateBook
             }
             else
             {
-
-                book = new Book();
-                book.Title = Model.Title;
-                book.GenreId = Model.GenreId;
-                book.PublishDate = Model.PublishDate;
-                book.PageCount = Model.PageCount;
-
+                book = _mapper.Map<Book>(Model);
                 _dbContext.Books.Add(book);
                 _dbContext.SaveChanges();
 

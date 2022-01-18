@@ -1,3 +1,4 @@
+using AutoMapper;
 using WebApi.Common;
 using WebApi.DBOperations;
 
@@ -6,10 +7,13 @@ namespace WebApi.BookOperations.GetBookDetail
     public class GetBookDetailQuery 
     {
         private readonly BookStoreDbContext _dbContext;
+        private readonly IMapper _mapper;
         public int BookId { get; set; }
-        public GetBookDetailQuery(BookStoreDbContext dbContext)
+    
+        public GetBookDetailQuery(BookStoreDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
+            _mapper = mapper;
         }
         public BookDetailViewModel Handle()
         {
@@ -17,17 +21,11 @@ namespace WebApi.BookOperations.GetBookDetail
             if(book is null){
                 throw new InvalidOperationException("Book couldn't found");
             }
-            BookDetailViewModel wm = new BookDetailViewModel();
-           
-            wm.Title = book.Title;
-            wm.PageCount = book.PageCount;
-            wm.PublishDate = book.PublishDate.Date.ToString("dd/MM/yyyy");
-            wm.Genre = ((GenreEnum)book.GenreId).ToString();
+            BookDetailViewModel wm = _mapper.Map<BookDetailViewModel>(book);
             return wm;
         }
 
     }
-
     public class BookDetailViewModel
     {
         public string? Title { get; set; }
